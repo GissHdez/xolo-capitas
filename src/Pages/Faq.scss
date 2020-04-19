@@ -195,3 +195,63 @@
         
     }    
 }
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
+only screen and (min-device-width : 601px) and (orientation : portrait){
+    .baseFaq{
+        height: 40vh;
+      
+        .contFaq{
+          padding: 50% 15%;
+            
+          h1{
+            font-size: 20px;         
+          }
+        }
+    }
+
+    .areaFaq{
+        flex-direction: column;
+    
+        .faqDer{
+            width: 100%;
+    
+            .pregunta{
+                text-align: center;
+        
+                .divisor{
+                    width: 30%;
+                }
+        
+                p{    
+                    #redes{
+                        width: 50%;
+                    }
+                }   
+            }
+        }    
+    }
+
+    .divisorFaq{
+        height: 2em;
+    }
+
+    .areaFaqBajo{
+        flex-direction: column;
+    
+        .faqIzqBajo{
+            width: 100%;
+    
+            .pregunta{
+                text-align: center;
+        
+                .divisor{
+                    width: 30%;
+                }
+            }        
+        }   
+    }
+
+}

@@ -22,6 +22,10 @@ img{
   width: 100%;
   height: auto;
   margin: 0;
+
+  input, label{
+    display: none;
+  }
   .navegador{
     display: flex;
     justify-content: space-around;
@@ -54,6 +58,10 @@ img{
   transition: top 0.5s;
   z-index: 3;
 
+  input, label{
+    display: none;
+  }
+
   .navScroll{
     display: flex;
     justify-content: space-around;
@@ -71,6 +79,116 @@ img{
       text-decoration: none;
     }
   }
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
+only screen and (min-device-width : 601px) and (orientation : portrait){
+  #header{  
+    #activadorMenu{
+      display: none;
+    }
+    #anvorgesa{
+        background-image: url(./img/ui/btn_hmenu.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 2em;
+        display: block;
+        height: 3em;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 3em;
+    }
+    #anvorgesa:hover{
+      background-image:url(./img/ui/btn_hmenu_hover.svg);
+    }
+    #activadorMenu:checked + #anvorgesa{
+      background-image:url(./img/ui/btn_close.svg);
+      right: 24%;
+      z-index: 4;
+    }
+    #activadorMenu:checked + #anvorgesa:hover{
+      background-image:url(./img/ui/btn_close_hover.svg);
+    }
+    #activadorMenu:checked + #anvorgesa + nav{
+      right: 0;
+    }
+    .navegador{      
+      flex-direction: column;
+      background: var(--obscuro);
+      position: fixed;
+      color: #fff;
+      margin-top: 4em;
+      right:-30%;
+      width: 30%;
+      height: auto;
+      padding: 1em;
+      border-radius: 0 0 0 1.5em;
+      z-index: 3;
+      a{
+        font-size: 15px;
+        margin-top: 1em;
+      }
+    }
+  }
+
+  #headScroll {
+    #activadorMenu2{
+      display: none;
+    }
+    #anvorgesa2{
+      background-color: var(--az);
+        background-image: url(./img/ui/btn_hmenu.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 2em;
+        display: block;
+        height: 3em;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 3em;
+        background-color: var(--rosa);
+    }
+    #anvorgesa2:hover{
+      background-image:url(./img/ui/btn_hmenu_hover.svg);
+    }
+    #activadorMenu2:checked + #anvorgesa2{
+      background-image:url(./img/ui/btn_close.svg);
+      right: 24%;
+      z-index: 2;
+    }
+    #activadorMenu2:checked + #anvorgesa2:hover{
+      background-image:url(./img/ui/btn_close_hover.svg);
+    }
+    #activadorMenu2:checked + #anvorgesa2 + nav{
+      right: 0;
+    }
+    .navScroll{      
+      flex-direction: column;
+      background: var(--obscuro);
+      position: fixed;
+      color: #fff;
+      margin-top: 4em;
+      right:-30%;
+      width: 30%;
+      height: auto;
+      padding: 1em;
+      border-radius: 0 0 0 1.5em;
+      a{
+        font-size: 15px;
+        margin-top: 1em;
+      }
+    }
+  }
+
+
+
+
+
+  
 }
 
 

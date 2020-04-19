@@ -210,3 +210,86 @@
         }
     }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
+only screen and (min-device-width : 601px) and (orientation : portrait){
+    .baseQuien{
+        height: 50vh;      
+        .contQuien{
+          padding: 30% 13%;
+            
+          h1{
+            font-size: 30px;         
+          }
+        }
+    }
+
+    .infoQuien{
+        flex-direction: column;
+    
+        .izqQuien{
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            img{
+                width: 90%;
+            }
+        }
+    
+        .derQuien{
+            width: 100%;
+    
+            .txtQD{
+                padding: 2em;
+            }
+        }
+    }
+
+    .divisorQS{
+        flex-direction: column;
+    
+        .sepIzq{
+            width: 100%;
+            padding: 2em;
+        }
+    }
+
+    .servicios{
+        margin-top: 2em;
+    
+        .servCont{
+            flex-direction: column;
+
+            .servIzq,
+            .servCent,
+            .servDer{
+                width: 100%;         
+            }
+        }
+    }
+
+    .separadorQuien{
+        height: 6em;
+        background-size: 300% auto;
+    }
+
+    .quienFin{
+        flex-direction: column;
+    
+        .izqFin{
+            width: 90%;
+            margin-right: auto;
+            margin-left: 0;
+        }
+    
+        .derFin{
+            width: 100%;
+    
+            .txtFin{
+                padding: 2em;
+            }
+        }
+    }
+
+    
+}  

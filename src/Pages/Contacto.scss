@@ -173,3 +173,31 @@
         box-shadow: 2px 2px 10px #666;
     }
 }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
+only screen and (min-device-width : 601px) and (orientation : portrait){
+    .baseContacto{
+        height: 50vh; 
+    }
+
+    .contacInfo{
+        margin-top: 0em;
+    
+        .contCont{
+            width: 80%;
+            flex-direction: column;    
+            .contIzq{
+                width: 100%;           
+            }
+    
+            .contDer{
+                width: 100%;
+                padding: 1em;
+                margin-left: 0%;
+                margin-top: 1em;
+                border-radius: .5em;
+            }
+        }
+    }
+}

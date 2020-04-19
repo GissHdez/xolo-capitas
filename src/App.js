@@ -39,6 +39,8 @@ const Navigation = () =>{
   return(
     <div>
     <div id="header">
+        <input type="checkbox" id="activadorMenu"/>
+		    <label class="trans" for="activadorMenu" id="anvorgesa"></label>
       <nav class="navegador">
             <NavLink to='/' class="navLink"><img src={imagenGrafica} alt=""></img></NavLink>    
             <NavLink to="/quienS"  class="navLink">Quienes somos</NavLink>
@@ -49,6 +51,8 @@ const Navigation = () =>{
     </div>
 
       <div id="headScroll">
+        <input type="checkbox" id="activadorMenu2"/>
+		    <label class="trans" for="activadorMenu" id="anvorgesa2"></label>
         <div class="navScroll">
           <NavLink to='/' class="navLink"><img src={imagenGrafica} alt=""></img></NavLink>    
           <NavLink to="/quienS"  class="navLink">Quienes somos</NavLink>

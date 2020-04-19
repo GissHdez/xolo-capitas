@@ -113,3 +113,36 @@
     }
   }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
+only screen and (min-device-width : 601px) and (orientation : portrait){
+  .baseNota{
+    height: 50vh;
+  
+    .contNota{
+      padding: 25% 25%;
+        
+      h1{
+        font-size: 25px;        
+      }
+    }
+  }
+
+  .producto{
+    flex-direction: column;
+    
+    .ladIzq{
+      width: 100%;
+      }
+      .ladDer{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    
+        .contProd{
+          width: 100%;
+        }
+      }
+    }
+}
