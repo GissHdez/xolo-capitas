@@ -196,15 +196,62 @@
     }    
 }
 
+@media screen and (max-width: 1024px) {   
+    .areaFaq{    
+        .faqIzq{
+            height: 28em;
+        }  
+    }
+    .areaFaqBajo{    
+        .faqDerBajo{
+            height: 28em;            
+        }
+    }
+  
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
-only screen and (min-device-width : 601px) and (orientation : portrait){
+}
+@media screen and (max-width: 768px) {   
     .baseFaq{
-        height: 40vh;
+        height: 70vh;
       
         .contFaq{
-          padding: 50% 15%;
+          padding: 14% 6%;
+            
+          h1{
+            font-size: 25px;         
+          }
+        }
+    }
+    
+    .areaFaq{    
+        .faqIzq{
+            height: 20em;
+        }
+    
+        .faqDer{
+            padding: 1.5em;
+        }    
+    }
+    
+    .divisorFaq{
+        width: 100%;
+        height: 4em;   
+        background-repeat: no-repeat;    
+        background-size: 100% auto;
+    }
+    
+    .areaFaqBajo{    
+        .faqDerBajo{
+            height: 20em;            
+        }}
+}
+ 
+@media screen and (max-width: 600px) {
+    .baseFaq{
+        height: 60vh;
+      
+        .contFaq{
+          padding: 20% 2%;
             
           h1{
             font-size: 20px;         
@@ -235,7 +282,10 @@ only screen and (min-device-width : 601px) and (orientation : portrait){
     }
 
     .divisorFaq{
-        height: 2em;
+        width: 100%;
+        height: 4em;   
+        background-repeat: no-repeat;    
+        background-size: 100% auto;
     }
 
     .areaFaqBajo{
@@ -253,5 +303,4 @@ only screen and (min-device-width : 601px) and (orientation : portrait){
             }        
         }   
     }
-
 }

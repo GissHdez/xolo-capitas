@@ -114,10 +114,43 @@
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
-only screen and (min-device-width : 601px) and (orientation : portrait){
+@media screen and (max-width: 1024px) {  
+.producto{
+  .ladDer{
+    .contProd{
+      width: 90%;
+      padding: 2em;
+    }
+  }
+}
+}
+@media screen and (max-width: 768px) {    
   .baseNota{
-    height: 50vh;
+    height: 80vh;
+  }
+
+.producto{
+  .ladDer{
+    width: 45%;
+
+    .contProd{
+      width: 90%;
+      padding: 2em;
+
+      h1{
+        font-size: 24px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+}
+}
+ 
+@media screen and (max-width: 600px) {
+  .baseNota{
+    height: 70vh;
   
     .contNota{
       padding: 25% 25%;

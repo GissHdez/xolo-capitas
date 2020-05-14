@@ -130,11 +130,48 @@ body{
     }
 }
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
-only screen and (min-device-width : 601px) and (orientation : portrait){
+@media screen and (max-width: 768px) {  
     .baseCatalogo{
-        height: 40vh;
+        height: 80vh;
+    }
+    
+    body{
+        background: rgb(248, 248, 248);
+    }
+    
+    .artCuadro{
+        margin-top: 2em;
+    
+        .artCentro{
+            width: 100%;
+    
+            .articulo{    
+                .contArt{
+                    width: 92%;
+                    margin-top: 1em;
+                    margin-bottom: .2em;
+    
+                    h2{
+                        font-size: 18px;
+                    }
+    
+                    p{
+                        font-size: 12px;
+                    }
+    
+                    .botones{
+                        margin-bottom: 1em;                        
+                    }
+                }
+            }
+        }}
+
+
+}
+ 
+@media screen and (max-width: 600px) {
+    .baseCatalogo{
+        height: 70vh;
       
         .contCatalogo{
           padding: 30% 12%;

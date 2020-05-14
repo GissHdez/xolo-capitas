@@ -174,11 +174,39 @@
     }
 }
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
-only screen and (min-device-width : 601px) and (orientation : portrait){
+@media screen and (max-width: 768px) {
     .baseContacto{
-        height: 50vh; 
+        height: 80vh;
+      
+        .contContacto{
+          padding: 45% 5%;
+        }
+    }
+    
+    .contacInfo{
+        margin-top: 2em;
+    
+        .contCont{
+            width: 85%;
+    
+            .contIzq{
+                width: 40%;          
+            }
+    
+            .contDer{
+                width: 60%;
+                padding: 2em;
+            }
+        }
+    }
+}
+ 
+@media screen and (max-width: 600px) {
+    .baseContacto{
+        height: 80vh;         
+        .contContacto{
+            padding: 20% 10%;
+        }
     }
 
     .contacInfo{

@@ -99,7 +99,7 @@ function QuienS() {
           <div class="web">
             <p>
               No dudes en visitar nuestra otra página de productos.
-              <span class="Joyeria"><img src={jppLogo} alt="logotipo joyería"/></span>
+              <span class="Joyeria"><a href="https://joyeriaplataypiedra.ddns.net/" target="_blank"><img src={jppLogo} alt="logotipo joyería"/></a></span>
             </p>
           </div>
         </div>

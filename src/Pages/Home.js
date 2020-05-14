@@ -64,7 +64,7 @@ function Home() {
           <div class="web">
             <p>
               No dudes en visitar nuestra otra página de productos.
-              <span class="Joyeria"><a href="" target="_blank"><img src={jppLogo} alt="logotipo joyería"/></a></span>
+              <span class="Joyeria"><a href="https://joyeriaplataypiedra.ddns.net/" target="_blank"><img src={jppLogo} alt="logotipo joyería"/></a></span>
             </p>
           </div>
         </div>

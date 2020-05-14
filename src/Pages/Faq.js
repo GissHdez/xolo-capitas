@@ -45,7 +45,7 @@ function Faq() {
               <p>
                 No, también vendemos joyería. Aqui está el link por si gusta ver nuestros productos
                 <div class="pagWeb">
-                  <span class="Joyeria"><a href="" target="_blank"><img src={jppLogo} alt="logotipo joyería"/></a></span>
+                  <span class="Joyeria"><a href="https://joyeriaplataypiedra.ddns.net/" target="_blank"><img src={jppLogo} alt="logotipo joyería"/></a></span>
                 </div>
               </p>
           </div>
@@ -99,7 +99,7 @@ function Faq() {
           <div class="web">
             <p>
               No dudes en visitar nuestra otra página de productos.
-              <span class="Joyeria"><img src={jppLogo} alt="logotipo joyería"/></span>
+              <span class="Joyeria"><a href="https://joyeriaplataypiedra.ddns.net/" target="_blank"><img src={jppLogo} alt="logotipo joyería"/></a></span>
             </p>
           </div>
         </div>

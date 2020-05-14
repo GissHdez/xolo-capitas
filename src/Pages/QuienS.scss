@@ -211,13 +211,62 @@
     }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 600px),
-only screen and (min-device-width : 601px) and (orientation : portrait){
+@media screen and (max-width: 768px) { 
     .baseQuien{
-        height: 50vh;      
+        height: 80vh;
+        margin-top: -3.5em;
+    }
+    
+    .infoQuien{    
+        .izqQuien{
+            width: 60%;
+            img{
+                width: 100%;
+            }
+        }
+    
+        .derQuien{
+            width: 60%;
+    
+            .txtQD{
+                padding: 3em;
+    
+                h1{
+                    margin-left: 15%;
+                }
+                h2{
+                    margin-left: 15%;
+                }
+                p{
+                    margin-left: 10%;
+                }
+            }
+        }
+    }
+    
+    .separadorQuien{
+        height: 6em;
+    }
+    
+    .quienFin{
+        margin-top: 2em;
+    
+        .izqFin{
+            width: 40%;
+            height: 25em;
+        }
+    
+        .derFin{
+            width: 70%;
+        }
+    }
+   }
+ 
+@media screen and (max-width: 600px) {
+    .baseQuien{
+        height: 70vh;      
         .contQuien{
-          padding: 30% 13%;
-            
+          padding: 30% 13%;            
           h1{
             font-size: 30px;         
           }
@@ -290,6 +339,4 @@ only screen and (min-device-width : 601px) and (orientation : portrait){
             }
         }
     }
-
-    
-}  
+}
